@@ -16,8 +16,6 @@ describe("Should calculate the range of a projectile on even ground where y is 0
         let result = calculateRangeOfAProjectile(44, 77, 0);
         expect(result).toEqual(86.6);
     });
-
-
 });
 
 describe("Should calculate the range of a projectile on uneven ground where y is not 0", () => {
